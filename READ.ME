@@ -1,0 +1,15 @@
+###ASSIGNMENT SPECIFICATION###
+Some whole numbers can be split into smaller pieces,where each piece contains the same number of digits.For a subset of the whole numbers which can be split evenly,the pieces are in numerically increasing order.Examples:
+*154152 can be split evenly into two-digit pieces (15,41,52)-increasing order
+*154152 can be split evenly into three-digit pieces (154,152)-not increasing order
+*154152 cannot be split evenly into five-digit pieces 
+*173 can be split evenly into one-digit pieces (1,7,3)-not increasing order
+*173 can be split evenly into three-digit pieces(173)-increaing order
+*173 cannot be split evenly into  two-digit pieces 
+
+1.The program will prompt the user to enter a whole number.If the user enters an invalid input
+(anything other than a whole number),the program will repeatedly prompt the user until a valid input is entered.
+2.The program will then prompt the user to enter the number of digits in each piece.The program will verify that the input is valid(a whole number which is a proper divisor of the number of digits in the first input);
+if the input is invalid ,the program will repeatedly prompt the user until a valid input is entered.
+3.The program will split the number into pieces and display those pieces one one line(separated by commas).
+4.The program will report whether or not the pieces are in numerically increasing order.If there is only one piece,it is defined to be in numerically order.
